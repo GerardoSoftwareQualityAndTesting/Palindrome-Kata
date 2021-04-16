@@ -59,7 +59,7 @@ class PalindromeValidatorTest {
     boolean expectedResult = true;
     assertEquals(expectedResult, actualResult);
   }
-  /*
+
   @Test
   void Given_4LettersPalindromeString_When_ValidatingPalindrome_Then_True() {
     // Given
@@ -72,8 +72,7 @@ class PalindromeValidatorTest {
     boolean expectedResult = true;
     assertEquals(expectedResult, actualResult);
   }
-
-	/*
+  /*
   @Test
   void Given_PanamaCanalString_When_ValidatingPalindrome_Then_True() {
     // Given
