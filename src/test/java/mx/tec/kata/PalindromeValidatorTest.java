@@ -20,7 +20,7 @@ class PalindromeValidatorTest {
     boolean expectedResult = true;
     assertEquals(expectedResult, actualResult);
   }
-  /*
+
   @Test
   void Given_2DifferentLettersString_When_ValidatingPalindrome_Then_False() {
     // Given
@@ -34,7 +34,6 @@ class PalindromeValidatorTest {
     assertEquals(expectedResult, actualResult);
   }
 
-	/*
   @Test
   void Given_2EqualLettersString_When_ValidatingPalindrome_Then_True() {
     // Given
@@ -47,8 +46,7 @@ class PalindromeValidatorTest {
     boolean expectedResult = true;
     assertEquals(expectedResult, actualResult);
   }
-
-	/*
+  /*
   @Test
   void Given_3LettersPalindromeString_When_ValidatingPalindrome_Then_True() {
     // Given
